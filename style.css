@@ -1,0 +1,198 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* Nav styles */
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+}
+
+.left-side {
+  display: flex; 
+}
+
+.right-side {
+  color: #dddddd;
+  font-weight: bold;
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+  /* height: 22px; */
+
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+  
+}
+
+.nav-link-wrapper a {
+  color: #a5a5a5;
+  text-decoration: none;
+  transition: color 0.5s;
+  padding: 16px;
+
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid white;
+}
+
+.nav-link-wrapper a:hover {
+  color: white;
+}
+
+.active-nav-link {
+  border-bottom: 1px solid white;
+}
+
+.active-nav-link a{
+  color: white !important;
+}
+
+/* ORIGINAL: */
+
+body {
+    background-color: rgb(29, 29, 29);
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 500px) {
+  li a {
+      font-size: 28px;
+    }
+  }
+
+  .bottom {
+    display: block;
+    color: white;
+    position: absolute;
+    font-size: 7.25vw;
+    bottom: 0.5px;
+    left: 46.6%;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+
+  .or {
+      background-color: orange;
+  }
+
+  .or :hover{
+      background-color: rgb(207, 135, 0);
+  }
+
+  #homehead {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: "Passion";
+    font-size: 7.25vw;
+    margin: 0px;
+  }
+
+  @font-face {
+    font-family: "Passion";
+    src: url(PassionOne-Black.ttf) format('truetype')
+  } 
+
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+width: 100%;
+transform: translate(-50%, -50%);
+}
+
+
+
+/**************** FOR IMAGE GALLERY ****************/
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+main {
+  display: grid;
+  /* https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/ */
+  /* https://www.youtube.com/watch?v=6UK7ftaqX9U&list=PLu8EoSxDXHP5CIFvt9-ze3IngcdAc2xKG&index=7&ab_channel=WesBos */
+  grid-template-columns: repeat( auto-fit, minmax(375px, 1fr) );
+  grid-gap: 15px
+  }
+
+  img {
+    display: block;
+    padding: 0px;
+    width: 100%;
+  }
+
+  
+/**************** CONTACT ****************/
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 12vw;
+}
+
+h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5vw;
+}
+
+/* To change images on homepage */
+
+.skull4sm{
+  display: none;
+}
+
+@media only screen and (max-width: 500px){ 
+  .skulllg{
+    display: none;
+  }
+
+  .skull4sm{
+    display: block;
+  }
+}
+
+
+ 
