@@ -15,7 +15,7 @@ p {
 	margin-bottom: 0;
 }
 
-/************************** Nav styles *********************/
+/************************** Nav *********************/
 .container-nav {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -92,8 +92,6 @@ p {
 	color: white !important;
 }
 
-/* Change the link color to #111 (black) on hover */
-
 @font-face {
 	font-family: "Passion";
 	src: url(PassionOne-Black.ttf) format("truetype");
@@ -117,24 +115,6 @@ img {
 	display: block;
 	padding: 0px;
 	width: 100%;
-}
-
-/**************** CONTACT ****************/
-
-/* To change images on homepage */
-
-.skull4sm {
-	display: none;
-}
-
-@media only screen and (max-width: 500px) {
-	.skulllg {
-		display: none;
-	}
-
-	.skull4sm {
-		display: block;
-	}
 }
 
 /************** Index ***************/
